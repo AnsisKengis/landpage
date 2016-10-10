@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript training</title>
+    <script src="public/css/bootstrap-3.3.7-dist/css/jquery-3.1.0.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+
+</head>
+<body>
+
+<div>
+    <ul>
+
+        <li><a href="#">Contact Us</a></li>
+
+        <li><a href="#">Services</a>
+            <ul>
+                <li><a href="#">Web design</a>
+                    <ul>
+                        <li><a href="#">Web development</a>
+                    </ul>
+            </ul>
+        </li>
+
+        <li><a href="#">Products</a>
+            <ul>
+                <li><a href="#">Web Pages</a>
+                    <ul>
+                        <li><a href="#">Hardware</a>
+                            <ul>
+                                <li><a href="#">Electronics</a>
+                            </ul>
+                    </ul>
+            </ul>
+        </li>
+
+        <li class="logo"><a href="#">Logo</a>
+        </li>
+    </ul>
+</div>
+<script>
+    function getavarage(a,b) {
+        var results = a+b;
+        console.log(results)
+        return results;
+    }
+
+    var results1 = (getavarage(4,5));
+    
+    function logresult() {
+        console.log("the average is" + results1);
+    }
+    logresult();
+</script>
+</body>
+</html>
